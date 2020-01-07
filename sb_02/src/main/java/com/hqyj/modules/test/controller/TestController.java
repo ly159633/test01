@@ -36,6 +36,7 @@ public class TestController {
 		sb.append(configTestBean.getName())
 			.append("----").append(configTestBean.getAge()).append("</br>");
 		
+		
 		return sb.toString();
 		
 	}
